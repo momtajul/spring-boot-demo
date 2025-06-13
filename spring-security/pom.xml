@@ -8,27 +8,39 @@
 		<version>3.5.0</version>
 	</parent>
 	<groupId>com.momtajul</groupId>
-	<artifactId>spring-data-redis</artifactId>
+	<artifactId>spring-security</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
-	<name>spring-data-redis</name>
-	<description>Spring Data Redis</description>
+	<name>spring-data-h2</name>
+	<description>Spring Security</description>
 	<properties>
 		<java.version>24</java.version>
 	</properties>
 	<dependencies>
-		<!-- Spring MVC -->
+		<!-- Spring Web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- Spring Data Regis -->
+		<!-- Spring Data JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<!-- in-memory database  -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Jakarta Dependency Injection -->
 		<dependency>
 			<groupId>jakarta.inject</groupId>
 			<artifactId>jakarta.inject-api</artifactId>
