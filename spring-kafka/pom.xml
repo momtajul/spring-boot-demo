@@ -8,10 +8,10 @@
 		<version>3.5.0</version>
 	</parent>
 	<groupId>com.momtajul</groupId>
-	<artifactId>spring-data-oracle</artifactId>
+	<artifactId>spring-kafka</artifactId>
 	<version>1.0.0</version>
-	<name>spring-data-oracle</name>
-	<description>Spring Data Oracle</description>
+	<name>spring-kafka</name>
+	<description>Spring Kafka</description>
 	<properties>
 		<java.version>24</java.version>
 	</properties>

@@ -8,11 +8,11 @@
 		<version>3.5.0</version>
 	</parent>
 	<groupId>com.momtajul</groupId>
-	<artifactId>spring-web-rest</artifactId>
+	<artifactId>spring-data-redis</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>spring-web-rest</name>
-	<description>Spring Web Rest</description>
+	<name>spring-data-redis</name>
+	<description>Spring Data Redis</description>
 	<properties>
 		<java.version>24</java.version>
 	</properties>

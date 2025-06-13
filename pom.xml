@@ -15,7 +15,11 @@
 		<module>spring-jakarta-rest</module>
 		<module>spring-data-oracle</module>
 		<module>spring-data-postgres</module>
+		<module>spring-data-redis</module>
+		<module>spring-data-h2</module>
 		<module>spring-cloud-eureka</module>
+		<module>spring-cloud-gateway</module>
+		<module>spring-kafka</module>
 	</modules>
 	
 </project>
