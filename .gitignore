@@ -1,6 +1,5 @@
 !**/src/main/**/target/
 !**/src/test/**/target/
-!/kafka/bin
 kafka/logs
 kafka/kraft-logs
 
@@ -166,8 +165,6 @@ buildNumber.properties
 ######################
 ######  Gradle  ######
 ######################
-
-**/bin/
 **/.gradle/
 **/.gradle/fileHashes
 **/.gradle/buildOutputCleanup
@@ -186,3 +183,5 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+**/bin/main/application.properties
