@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.momtajul</groupId>
+	<artifactId>spring-boot-demo</artifactId>
+	<version>1.0.0</version>
+	<name>spring-boot</name>
+	<packaging>pom</packaging>
+	<description>Spring Boot Demo</description>
+
+	<modules>
+		<module>spring-web-rest</module>
+		<module>spring-jakarta-rest</module>
+		<module>spring-data-oracle</module>
+		<module>spring-data-postgres</module>
+		<module>spring-cloud-eureka</module>
+	</modules>
+	
+</project>

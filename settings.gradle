@@ -1,0 +1,11 @@
+rootProject.name = 'spring-boot-demo'
+
+include('spring-web-rest')
+include('spring-jakarta-rest')
+include('spring-data-oracle')
+include('spring-data-postgres')
+include('spring-data-h2')
+include('spring-data-redis')
+include('spring-kafka')
+include('spring-cloud-gateway')
+include('spring-cloud-eureka')
